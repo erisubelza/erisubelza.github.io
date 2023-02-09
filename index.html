@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi proyecto</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet"> 
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  
+<div class="intro">
+   <h1>ERICA ELIANA SUBELZA</h1> 
+    <article>
+       <button class="btn-abrir-popup" id="btn-abrir-popup">Contacto</button>
+   
+   </article>
+   
+   <div class="overlay" id="overlay">
+      <div class="popup" id="popup">
+         <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+         <h3>Correo electrónico</h3>
+         <h4>arbolgenealogico@gmail.com</h4>
+         <h3>Dirección</h3>
+         <h4>Ruta Flores xxxx, Mendoza</h4>
+         <h3>Teléfono</h3>
+         <h4>555 555 5555</h4>
+         
+      </div>
+
+   </div>
+
+</div>   
+
+<script src="js/popup.js"></script>
+
+<section class="info" id="about">
+
+   <img src="./imagenes/Imagen.jpg" alt="foto erica" width="300px" height="300px">
+   <div class="bio-grafia">
+     <h2 class="bio-titulo">Sobre Mí</h2>
+     <p class="bio-texto">
+      Como persona organizada y con una gran motivación, 
+      soy capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en cualquier proyecto, 
+      al mismo tiempo que me esfuerzo por trabajar en equipo y fomentar valores como los del compañerismo.
+     </p>
+   </div>
+</section>
+
+<section class="formacion">
+   <h2>Formación academica</h2>
+   <p>
+     Escuela primaria: "General xxx xxx x-xxx". 2010| 2016
+   </p>
+   <p>
+     Escuela secundaria:"Escuela xxxx xxxxxxxx". En economia y administracion. 2017| 2021
+   </p>
+   <p>
+     Curso en ingles en xxxxxxx. 2016
+   </p>
+   <h2>Aptitudes</h2>
+   <p>
+      <ul>
+         <li>Responsable, comprometida, puntual seria.</li>
+         <li>Proactiva y de trato cordial</li>
+         <li>Organizada y Responsable</li>
+         <li>Manejo de word y Excel</li>
+      </ul>
+   </p>
+
+</section>
+
+<section class="proyectos" id="proyectos">
+    <h2 class="titulo-de-proyectos">Proyectos recientes</h2>
+    <p id="demo">Proyectos</p>
+
+    <button type="button" id="button-1">Haz click aquí</button>
+ 
+   </section>
+
+ <script src="js/function.js"></script>
+
+<section class="contacto" id="contacto">
+   <h2>Contactame</h2>
+      <form id="formulario">
+
+         <div>
+            <label for="name">Nombre </label>   
+               <input
+                type="text"
+                name="sender-name"
+                id="name"
+                placeholder="Escribe tu nombre"
+                class="input-field"
+                required
+               />
+         </div>
+
+         <div>
+            <label for="email">Correo Electrónico</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Ingrese su correo electrónico"
+                class="input-field"
+                required
+              />
+         </div>
+         <div>
+            <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                cols="60"
+                rows="10"
+                placeholder="Escribe tu mensaje"
+                name="mensaje"
+                class="input-field"
+                required
+              ></textarea>
+         </div>
+         
+            <button id="submit-btn" class="submit-btn" type="submit">Enviar</button>
+    
+         
+      </form>
+
+   
+</section>
+
+ <div class="contenedorfinal">
+              <footer> 
+               <div class="link">
+                <a href="https://www.instagram.com/invites/contact/?i=tzagrrge0b3f&utm_content=277ry83"><img src="./imagenes/logo-instagram.webp" alt="logo de instagram"></a>    
+               </div>
+                 
+                 <p> Copyright 2022 Mi primer proyecto.org.ar| Politica de privacidad</p>
+              </footer>
+               </div>
+ </div>
+
+</body>
+</html>
+
